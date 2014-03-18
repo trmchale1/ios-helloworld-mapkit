@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+@interface HMViewController : UIViewController <MKMapViewDelegate>
 
-@interface HMViewController : UIViewController
+@property (nonatomic, strong) IBOutlet MKMapView *mapView;
+
 
 @end

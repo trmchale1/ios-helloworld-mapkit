@@ -21,6 +21,8 @@
 		56057ADA18D8638600311CE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56057ABC18D8638600311CE2 /* UIKit.framework */; };
 		56057AE218D8638600311CE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56057AE018D8638600311CE2 /* InfoPlist.strings */; };
 		56057AE418D8638600311CE2 /* iOS_HelloMe_MapKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56057AE318D8638600311CE2 /* iOS_HelloMe_MapKitTests.m */; };
+		56057AEE18D863FD00311CE2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56057AED18D863FD00311CE2 /* CoreLocation.framework */; };
+		56057AF018D8640600311CE2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56057AEF18D8640600311CE2 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		56057ADF18D8638600311CE2 /* iOS-HelloMe-MapKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-HelloMe-MapKitTests-Info.plist"; sourceTree = "<group>"; };
 		56057AE118D8638600311CE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56057AE318D8638600311CE2 /* iOS_HelloMe_MapKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_HelloMe_MapKitTests.m; sourceTree = "<group>"; };
+		56057AED18D863FD00311CE2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		56057AEF18D8640600311CE2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56057AF018D8640600311CE2 /* MapKit.framework in Frameworks */,
+				56057AEE18D863FD00311CE2 /* CoreLocation.framework in Frameworks */,
 				56057ABB18D8638600311CE2 /* CoreGraphics.framework in Frameworks */,
 				56057ABD18D8638600311CE2 /* UIKit.framework in Frameworks */,
 				56057AB918D8638600311CE2 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		56057AB718D8638600311CE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56057AEF18D8640600311CE2 /* MapKit.framework */,
+				56057AED18D863FD00311CE2 /* CoreLocation.framework */,
 				56057AB818D8638600311CE2 /* Foundation.framework */,
 				56057ABA18D8638600311CE2 /* CoreGraphics.framework */,
 				56057ABC18D8638600311CE2 /* UIKit.framework */,
