@@ -23,6 +23,7 @@
 		56057AE418D8638600311CE2 /* iOS_HelloMe_MapKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56057AE318D8638600311CE2 /* iOS_HelloMe_MapKitTests.m */; };
 		56057AEE18D863FD00311CE2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56057AED18D863FD00311CE2 /* CoreLocation.framework */; };
 		56057AF018D8640600311CE2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56057AEF18D8640600311CE2 /* MapKit.framework */; };
+		56057B3718D9717600311CE2 /* myAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 56057B3618D9717600311CE2 /* myAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		56057AE318D8638600311CE2 /* iOS_HelloMe_MapKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_HelloMe_MapKitTests.m; sourceTree = "<group>"; };
 		56057AED18D863FD00311CE2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		56057AEF18D8640600311CE2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		56057B3518D9717600311CE2 /* myAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAnnotation.h; sourceTree = "<group>"; };
+		56057B3618D9717600311CE2 /* myAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				56057ACA18D8638600311CE2 /* Main.storyboard */,
 				56057ACD18D8638600311CE2 /* HMViewController.h */,
 				56057ACE18D8638600311CE2 /* HMViewController.m */,
+				56057B3518D9717600311CE2 /* myAnnotation.h */,
+				56057B3618D9717600311CE2 /* myAnnotation.m */,
 				56057AD018D8638600311CE2 /* Images.xcassets */,
 				56057ABF18D8638600311CE2 /* Supporting Files */,
 			);
@@ -260,6 +265,7 @@
 			files = (
 				56057ACF18D8638600311CE2 /* HMViewController.m in Sources */,
 				56057AC518D8638600311CE2 /* main.m in Sources */,
+				56057B3718D9717600311CE2 /* myAnnotation.m in Sources */,
 				56057AC918D8638600311CE2 /* HMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +471,7 @@
 				56057AE918D8638600311CE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56057AEA18D8638600311CE2 /* Build configuration list for PBXNativeTarget "iOS-HelloMe-MapKitTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				56057AEC18D8638600311CE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
